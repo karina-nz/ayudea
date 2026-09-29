@@ -1,0 +1,78 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+
+}
+
+header{
+    background-color: indigo;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+}
+
+header .logo {
+    max-width: 10%;
+    height: auto;
+}
+
+header .encabezado {
+    margin-left: 20px;
+}
+
+h2{
+    color: indigo;
+}
+
+th,
+tr {
+    border: 1px solid indigo;
+    padding: 8px;
+}
+
+td{
+    color: white;
+    background-color: indigo;
+    text-align: center;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+    padding: 5px;
+}
+
+button{
+    margin-top: 5px;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.soporte,
+.consultoria,
+.web {
+    max-width: 35%;
+    height: auto;
+}
+
+.imagen-portada {
+    max-width: 50%;
+    height: auto;
+}
