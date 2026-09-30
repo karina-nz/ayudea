@@ -1,11 +1,11 @@
-const botonEnviar = document.getElementById("botoEnviar");
+const botonEnviar = document.getElementById("botonEnviar");
 
 if (botonEnviar) {
     botonEnviar.addEventListener("click", function () {
         
         const nombre = document.getElementById("nombre").value;
         const apellido = document.getElementById("apellido").value;
-        const email = document.getElementById("email").value;
+        const email = document.getElementById("mail").value;
         const tipoConsulta = document.getElementById("tipoConsulta").value;
         const comentario = document.getElementById("comentario").value;
 
@@ -40,6 +40,9 @@ if (botoInfo) {
         if (info.style.display == "none") {
             info.style.display = "block";
             botoInfo.textContent = "Ver menos";
+            
+        } else if (comentario == "") {
+            respuesta.textContent = "Falta completar el comentario.";
             
         } else {
             info.style.display = "none";
